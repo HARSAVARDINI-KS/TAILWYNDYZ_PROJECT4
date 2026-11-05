@@ -1,0 +1,13 @@
+# Minimum versions; tested with both these minimums and the latest releases (Python 3.12)
+pandas>=2.2.2
+numpy>=1.26.4
+scipy>=1.11
+scikit-learn>=1.4.2
+lightgbm>=4.3.0
+shap>=0.45.1
+statsmodels>=0.14.2
+matplotlib>=3.8
+openpyxl>=3.1
+nbformat>=5.9
+nbconvert>=7.0
+ipykernel>=6.0
