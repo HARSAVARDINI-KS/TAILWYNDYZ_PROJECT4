@@ -1,0 +1,50 @@
+feature,mean_abs_shap,share_pct,group,label
+app_l3,0.8721418044567553,18.528590194572445,engagement,App sessions/mo (3m)
+txn_l3,0.643930115506092,13.68024920166257,behavioural,Transactions (last 3m)
+recency_months,0.5624592530504496,11.949406561709946,behavioural,Months since last purchase
+coupons_l3,0.4169449917307764,8.857966498086855,engagement,Coupons redeemed (3m)
+emails_l3,0.3418094316561665,7.261716903642427,engagement,Emails opened/mo (3m)
+app_l6,0.16387070739340442,3.4814214462272535,engagement,App sessions/mo (6m)
+promo_pct_l3,0.14962292252215342,3.178728276709625,behavioural,Promo share of txns (3m)
+spend_l3,0.14119901293936624,2.9997629207342658,behavioural,Spend (last 3m)
+spend_ratio_l3_prev3,0.13931006678175475,2.9596323948551673,behavioural,Spend trend (last 3m vs prior 3m)
+basket_change,0.11403198226603925,2.4226012991066965,behavioural,Basket change
+txn_l6,0.089243820325412,1.8959785733899022,behavioural,Transactions (last 6m)
+promo_change,0.08136543530242389,1.7286028476305688,behavioural,Promo change
+tickets_l3,0.07889042274342878,1.6760213830135793,support,Support tickets (last 3m)
+spend_slope_l6,0.07877707687072893,1.6736133580630843,behavioural,Spend slope (6m)
+emails_l6,0.07248755270774776,1.5399928675198886,engagement,Emails opened/mo (6m)
+promo_pct_l6,0.07125673227053647,1.5138441754520917,behavioural,Promo share of txns (6m)
+spend_l6,0.06680521691198171,1.4192720503664444,behavioural,Spend (last 6m)
+txn_l12,0.0646663213931199,1.3738313682027414,behavioural,Transactions (last 12m)
+txn_slope_l6,0.05858915928512494,1.2447224943136375,behavioural,Txn slope (6m)
+basket_l3,0.052735070494347475,1.1203527970778548,behavioural,Avg basket (3m)
+email_change,0.052442917422520136,1.114146025983622,engagement,Email change
+months_since_ticket,0.049393359959986706,1.0493583960255815,support,Months since last ticket
+app_per_txn_l6,0.046378511011514696,0.9853081459638148,engagement,App per txn l6
+txn_ratio_l3_prev3,0.04452246444931344,0.9458765696337555,behavioural,Txn trend (last 3m vs prior 3m)
+coupons_l6,0.03486789581937071,0.7407659503107789,engagement,Coupons redeemed (6m)
+age,0.03474737726610101,0.7382055422751063,demographic,Age
+app_change,0.029243518355901065,0.621276453777437,engagement,App change
+tenure_months,0.025643205629999742,0.5447880676805436,lifecycle,Tenure (months)
+categories_l3,0.025440944168562126,0.5404910374132382,behavioural,Categories l3
+spend_l12,0.019333487430803924,0.41073855628376255,behavioural,Spend (last 12m)
+tickets_l6,0.017161023604089845,0.3645847178230656,support,Support tickets (last 6m)
+ticket_change,0.017064156689702823,0.3625267871621133,support,Ticket change
+coupon_change,0.01677776998034228,0.356442522025644,engagement,Coupon change
+missing_months,0.009512495670482015,0.2020922894709668,lifecycle,Missing months
+tickets_l12,0.008695316557352993,0.1847313777185907,support,Tickets l12
+active_months_l6,0.0066183582246925055,0.14060654664133343,behavioural,Active months (last 6)
+months_with_purchase,0.0038923847046555774,0.08269343437459448,behavioural,Months with a purchase
+city,0.003225891760074113,0.06853383948461443,demographic,City
+complaint_l3,0.0019075671540092734,0.040526127614396716,support,Complaint l3
+preferred_category,0.0,0.0,demographic,Preferred category
+home_price_tier,0.0,0.0,demographic,Home price tier
+short_history_flag,0.0,0.0,lifecycle,Short history flag
+history_months,0.0,0.0,lifecycle,Months of history
+gender,0.0,0.0,demographic,Gender
+age_missing,0.0,0.0,demographic,Age missing
+membership_tier,0.0,0.0,demographic,Membership tier
+marketing_opt_in,0.0,0.0,demographic,Marketing opt-in
+active_months_l3,0.0,0.0,behavioural,Active months (last 3)
+complaint_months_l6,0.0,0.0,support,Complaint months (6m)

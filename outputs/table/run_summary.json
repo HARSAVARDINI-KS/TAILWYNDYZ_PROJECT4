@@ -1,0 +1,82 @@
+{
+  "n_members": 2600,
+  "n_eligible": 2368,
+  "n_ineligible": 232,
+  "churn_rate_eligible": 0.3433277027027027,
+  "n_train": 1657,
+  "n_val": 711,
+  "churn_train": 0.3946891973445987,
+  "churn_val": 0.22362869198312235,
+  "n_val_active": 592,
+  "churn_val_active": 0.07601351351351351,
+  "n_active_all": 1653,
+  "churn_active_all": 0.06896551724137931,
+  "lapsed_n": 715,
+  "lapsed_churn": 0.9776223776223776,
+  "logit_with_lifecycle_prauc": 0.917175288593092,
+  "logit_with_lifecycle_ew_prauc": 0.4830797553755822,
+  "backtest_n_train": 2167,
+  "backtest_churn_train": 0.30133825565297645,
+  "champ_val": {
+    "n": 711,
+    "prevalence": 0.22362869198312235,
+    "threshold": 0.41018974637137895,
+    "accuracy": 0.9451476793248945,
+    "precision": 0.910958904109589,
+    "recall": 0.8364779874213837,
+    "f1": 0.8721311475409836,
+    "pr_auc": 0.9443577025998534,
+    "roc_auc": 0.970478990064716,
+    "top_decile_precision": 1.0,
+    "top_decile_lift": 4.471698113207547
+  },
+  "champ_val_ew": {
+    "n": 592,
+    "prevalence": 0.07601351351351351,
+    "threshold": 0.41018974637137895,
+    "accuracy": 0.9391891891891891,
+    "precision": 0.6551724137931034,
+    "recall": 0.4222222222222222,
+    "f1": 0.5135135135135135,
+    "pr_auc": 0.5991687156207884,
+    "roc_auc": 0.9004265691651432,
+    "top_decile_precision": 0.4576271186440678,
+    "top_decile_lift": 6.020338983050848
+  },
+  "thr_cal": 0.41018974637137895,
+  "brier_val": 0.040669540980754995,
+  "brier_val_baseline": 0.2028805965995638,
+  "best_params": {
+    "num_leaves": 31,
+    "learning_rate": 0.03,
+    "n_estimators": 150,
+    "min_child_samples": 60
+  },
+  "confusion_matrix": [
+    [
+      539,
+      13
+    ],
+    [
+      26,
+      133
+    ]
+  ],
+  "confusion_matrix_active": [
+    [
+      537,
+      10
+    ],
+    [
+      26,
+      19
+    ]
+  ],
+  "logit_active_n": 1653,
+  "logit_active_events": 114,
+  "xfit_active_pr_auc": 0.623313644144059,
+  "fwd_n": 2474,
+  "fwd_active_n": 1594,
+  "fwd_active_high": 76,
+  "fwd_active_medium": 88
+}

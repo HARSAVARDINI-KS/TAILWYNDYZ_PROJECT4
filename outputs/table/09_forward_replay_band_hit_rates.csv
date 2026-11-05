@@ -1,0 +1,4 @@
+band,members,observed_churn,churners
+High,81,0.7283950617283951,59
+Low,1497,0.024716098864395457,37
+Medium,75,0.24,18

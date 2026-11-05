@@ -1,0 +1,7 @@
+comparison,population,pr_auc_diff,ci_low,ci_high,share_resamples_lgbm_not_better
+LightGBM minus Rule: no purchase in last 2 months,All validation,0.07945840347888888,0.051558389991661034,0.11297671368491731,0.0
+LightGBM minus Rule: no purchase in last 2 months,Active base,0.3208081829569771,0.18930897864766405,0.4400438040195778,0.0
+LightGBM minus Logistic regression,All validation,0.09405242148252602,0.025002664433257965,0.14457236986191457,0.0
+LightGBM minus Logistic regression,Active base,0.2481126364074136,0.13491387915395361,0.33550419809420884,0.002
+LightGBM minus Random forest,All validation,0.021448024378814212,0.012670427895162812,0.03242453302534673,0.0
+LightGBM minus Random forest,Active base,0.12144864709476699,0.06440895922208598,0.19315822507985986,0.0

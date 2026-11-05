@@ -1,0 +1,3 @@
+scenario,targeted_members,share_of_active_base,mean_risk_before,mean_risk_after,abs_change_pp,expected_churners_avoided,relative_change
+Proactive service recovery (resolve tickets/complaints),164,0.27702702702702703,0.1278447099250788,0.10457204319051328,-2.3272666734565517,3.816717344468748,-0.18203855871865224
+Engagement nudge (coupon + email + app push),270,0.4560810810810811,0.10481753740918007,0.031240421235139645,-7.357711617404042,19.865821366990914,-0.7019542530064862

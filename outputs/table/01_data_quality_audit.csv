@@ -1,0 +1,19 @@
+table,issue,rows_affected,action
+profile,exact duplicate rows,8,dropped
+label,exact duplicate rows,5,dropped
+activity,exact duplicate rows,58,dropped
+activity,same customer-month with conflicting values,2,kept first
+profile,inconsistent casing/whitespace in MEMBERSHIP_TIER (12 variants -> 3),9,strip + title-case
+profile,inconsistent casing/whitespace in CITY (40 variants -> 10),30,strip + title-case
+profile,missing AGE,78,median/'Unknown' imputation + missing flag
+profile,missing GENDER,52,median/'Unknown' imputation + missing flag
+profile,missing HOME_STORE_PRICE_TIER,130,median/'Unknown' imputation + missing flag
+activity,negative TOTAL_SPEND,23,rebuilt as AVG_BASKET_VALUE x TRANSACTIONS
+activity,zero TOTAL_SPEND despite TRANSACTIONS>0,20,rebuilt as AVG_BASKET_VALUE x TRANSACTIONS
+activity,"outlier TOTAL_SPEND (>5x basket x transactions; max $3,731 vs 99.9th pct $680)",13,replaced by AVG_BASKET_VALUE x TRANSACTIONS
+activity,"zero-transaction months (valid inactivity, kept)",2330,kept; they are real signal (basket/promo fields are 0 in these months)
+activity,interior missing months (gaps between first and last row) across 1644 members,2086,left as NaN (excluded from averages) + count feature
+activity,members whose rows stop before Jun-2024 (no later rows),1040,months after last row treated as zero activity (not missing)
+label,LAST_PURCHASE_DATE / MONTHS_OBSERVED / INSUFFICIENT_HISTORY_FLAG,2600,NOT used as features - computed using the label window (leakage)
+label,members with no purchase on/before Mar-2024 (signed up Apr-Jun 2024 or never bought),232,excluded from modelling population: churn is undefined without prior purchase history
+label,official CHURNED disagrees with churn re-derived from activity rows (eligible members),4,official label kept (re-derivation used only for the backtest snapshot)
